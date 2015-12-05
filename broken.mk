@@ -1,8 +1,5 @@
-# Inherit AICP common bits
-$(call inherit-product, vendor/broken/config/common.mk)
-
-# Inherit telephony stuff
-$(call inherit-product, vendor/broken/config/telephony.mk)
+# Inherit Broken common
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
