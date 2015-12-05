@@ -1,11 +1,11 @@
 # Inherit AICP common bits
-$(call inherit-product, vendor/broken/configs/common.mk)
+$(call inherit-product, vendor/broken/config/common.mk)
 
 # Inherit telephony stuff
-$(call inherit-product, vendor/broken/configs/telephony.mk)
+$(call inherit-product, vendor/broken/config/telephony.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/broken/configs/nfc_enhanced.mk)
+$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
 # Inherit AOSP device configuration for d800
 $(call inherit-product, device/lge/d800/d800.mk)
