@@ -14,3 +14,8 @@ PRODUCT_NAME := broken_d800
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-D800
 PRODUCT_MANUFACTURER := lge
+
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Jarrod Worlitz (drgroovestarr)"
+
